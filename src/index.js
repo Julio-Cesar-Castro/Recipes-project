@@ -10,6 +10,10 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    @font-face {
+      font-family: 'Hurme Geometric Sans 1 Bold' ;
+      src: url('fonts/HurmeGeometricSans1Bold.otf') format('opentype');
+    }
   }
 `;
 
