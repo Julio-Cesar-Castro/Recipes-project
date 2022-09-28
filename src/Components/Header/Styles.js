@@ -1,7 +1,12 @@
 import styled from "styled-components";
 import back from "../../assets/back.png";
 
-export const StyleHeader = styled.div`
+export const Container = styled.div`
+  background: #ffffff 0% 0% no-repeat padding-box;
+`;
+
+export const Background = styled.div`
+  max-width: 1920px;
   max-width: 1920px;
   margin: auto 0;
   width: 100%;
